@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brain Waves — Agentic AI Services</title>
+<meta name="description" content="Brain Waves builds autonomous AI agents that plan, reason and execute.">
+<link rel="icon" href="assets/logo.jpg">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<canvas id="bgfx"></canvas>
+<header id="siteHeader">
+  <nav class="wrap">
+    <a href="index.html" class="brand"><img src="assets/logo.jpg" alt="Brain Waves logo"></a>
+    <div class="navlinks" id="navLinks">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="brainy.html">Brainy</a>
+      <a href="team.html">Team</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div style="display:flex;align-items:center;gap:14px;">
+      <a href="contact.html" class="cta-btn">Let's Build &rarr;</a>
+      <button class="navtoggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div class="hero-copy reveal in">
+      <span class="eyebrow">Agentic AI Services</span>
+      <h1>Building AI<br>that <span class="accent">acts.</span></h1>
+      <p class="lead">We build autonomous agents that plan, reason, and execute &mdash; turning human intent into digital action.</p>
+      <div class="hero-actions">
+        <a href="services.html" class="btn-primary">Explore AI &rarr;</a>
+        <a href="brainy.html" class="btn-ghost">Meet Brainy</a>
+      </div>
+    </div>
+    <div class="hero-visual reveal in">
+      <div class="glow-ring r1"></div>
+      <div class="glow-ring r2"></div>
+      <div class="node-dot nd1"></div>
+      <div class="node-dot nd2"></div>
+      <div class="node-dot nd3"></div>
+      <span class="glass-tag tag-plan">PLAN</span>
+      <span class="glass-tag tag-reason">REASON</span>
+      <span class="glass-tag tag-execute">EXECUTE</span>
+      <img class="brainy-photo" src="assets/brainy-hero.png" alt="Brainy, the Brain Waves mascot">
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap about-grid">
+    <div class="about-visual reveal">
+      <img src="assets/brainy-wave.png" alt="Brainy waving hello">
+    </div>
+    <div class="reveal">
+      <span class="kicker" style="display:block;font-size:13.5px;font-weight:600;color:var(--purple);margin-bottom:14px;">About Brain Waves</span>
+      <h2 style="font-size:clamp(28px,3.2vw,40px);font-weight:700;line-height:1.2;">An agentic AI studio, built from Tamil Nadu for the world.</h2>
+      <p style="margin-top:20px;font-size:16.5px;color:var(--ink-soft);line-height:1.7;max-width:520px;">
+        We design autonomous AI agents and intelligent digital systems for businesses that want software which doesn't just respond &mdash; it decides, plans, and executes on its own.
+      </p>
+      <div class="about-badges">
+        <span class="badge"><span class="dot"></span> MSME Recognised</span>
+        <span class="badge"><span class="dot"></span> Startup TN Recognised</span>
+      </div>
+      <div style="margin-top:30px;">
+        <a href="about.html" class="btn-ghost">Read our story &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-soft">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="kicker">Services</span>
+      <h2>What we build.</h2>
+      <p>Focused, production-grade agentic systems &mdash; scoped to the outcome you actually need.</p>
+    </div>
+    <div class="service-grid">
+      <div class="service-card reveal">
+        <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="#7C3AED" stroke-width="1.6"/><path d="M4 20c1.5-4 4.5-6 8-6s6.5 2 8 6" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+        <h3>AI Agents</h3>
+        <p>Autonomous agents that plan multi-step work and carry it through to completion.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 3v4M12 17v4M3 12h4M17 12h4" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/><rect x="8" y="8" width="8" height="8" rx="2" stroke="#7C3AED" stroke-width="1.6"/></svg></div>
+        <h3>AI Automation</h3>
+        <p>Repetitive operational work handed off to agents that run it end to end.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h10M4 18h16" stroke="#7C3AED" stroke-width="1.6" stroke-linecap="round"/><circle cx="19" cy="12" r="2" stroke="#2563EB" stroke-width="1.6"/></svg></div>
+        <h3>AI Workflows</h3>
+        <p>Structured pipelines that chain reasoning, tools and data into one flow.</p>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:44px;">
+      <a href="services.html" class="btn-primary">See all services &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<section class="brainy-section">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="kicker">Our mascot</span>
+      <h2>Meet Brainy.</h2>
+      <p>The heart and the brains of Brain Waves.</p>
+    </div>
+    <div class="reveal" style="max-width:280px;margin:40px auto 0;">
+      <img src="assets/brainy-thumbs.png" alt="Brainy giving a thumbs up" style="animation:float 5.5s ease-in-out infinite;filter:drop-shadow(0 30px 50px rgba(124,58,237,0.25));">
+    </div>
+    <div style="text-align:center;margin-top:36px;">
+      <a href="brainy.html" class="btn-ghost">Get to know Brainy &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<section class="section-soft">
+  <div class="wrap" style="text-align:center;">
+    <div class="reveal">
+      <h2 style="font-size:clamp(28px,3.4vw,40px);font-weight:700;">Ready to put an agent to work?</h2>
+      <p style="margin-top:16px;font-size:17px;color:var(--ink-soft);max-width:480px;margin-left:auto;margin-right:auto;">Tell us what you're trying to solve, and we'll tell you if an agent is the right fit.</p>
+      <div style="margin-top:34px;">
+        <a href="contact.html" class="btn-primary">Let's build &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand"><img src="assets/logo.jpg" alt="Brain Waves"></div>
+        <p class="footer-tag">Agentic AI Services &mdash; autonomous agents that plan, reason and execute.</p>
+        <div class="footer-badges">
+          <span class="badge">MSME Recognised</span>
+          <span class="badge">Startup TN Recognised</span>
+        </div>
+      </div>
+      <div class="fcol">
+        <h5>Company</h5>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="brainy.html">Brainy</a>
+        <a href="team.html">Team</a>
+      </div>
+      <div class="fcol">
+        <h5>Get in touch</h5>
+        <a href="mailto:brainwaves.official.in@gmail.com">brainwaves.official.in@gmail.com</a>
+        <a href="tel:+919514215581">+91 95142 15581</a>
+        <a href="contact.html">Contact form</a>
+      </div>
+      <div class="fcol">
+        <h5>Team</h5>
+        <a href="https://www.linkedin.com/in/veerakumara" target="_blank" rel="noopener">Founder &amp; CTO</a>
+        <a href="https://www.linkedin.com/in/prajit24" target="_blank" rel="noopener">CMO</a>
+        <a href="https://www.linkedin.com/in/nitheshvar17" target="_blank" rel="noopener">COO</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Brain Waves. All rights reserved.</span>
+      <span>Udyam Registration UDYAM-TN-28-0207955</span>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
